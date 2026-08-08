@@ -1,0 +1,83 @@
+
+def positivo_negativo():
+    numero=int(input("escriba un numero"))
+    if numero > 0:
+        print("el numero es positivo")
+    elif numero <0:
+        print("el numero es negativo")
+    else:
+        print("el numero es cero")
+positivo_negativo()
+
+def par_impar():
+    numero=int(input("escriba un numero"))
+    if numero % 2 ==0:
+        print("el numero es par")
+    else:
+        print("el numero es impar")
+par_impar()
+
+def fibonacci():
+    if numero < 0:
+        print("no pertenece a fibonacci")
+#pienso que habria que hacer una generalizacion respecto a la secuencia de fibonacci en operaciones, empezando por 1, se suma el ultimo numero y se agrega a la secuencia (1+1=2,2+1=3, quedaria 1,2,3)
+
+def primo():
+    numero=int(input("escriba un numero"))
+    if numero/ numero and numero/1:
+        print("el numero es primo")
+    else:
+        print("el numero no es primo")
+primo()
+
+def intermedios():
+    numero1=int(input("escriba un numero"))
+    numero2=int(input("escriba un numero"))
+    suma= 0
+    for i in range (numero1+1,numero2):
+        suma= suma +i
+    print("la suma de los numeros intermedios es", suma)
+intermedios()
+
+def par_impar_potencia():
+    numero=int(input("escriba un numero"))
+    if numero % 2 ==0:
+        r=numero**2
+        print("el numero es par, se eleva al cubo:", r)
+    else:
+        r=numero**3
+        print("el numero es impar, se eleva al cuadrado", r)
+par_impar_potencia()
+
+def codigo_estudiante():
+    codigo=int(input("escriba su codigo de estudiante"))
+    if codigo > 0:
+        print("el codigo es positivo")
+    elif codigo <0:
+        print("el codigo es negativo")
+    else:
+        print("el codigo es cero")
+        
+    if codigo % 2 ==0:
+        print("el codigo es par")
+    else:
+        print("el codigo es impar")
+
+    if codigo/ codigo and codigo/1:
+        print("el codigo es primo")
+    else:
+        print("el codigo no es primo")
+    if codigo % 2 ==0:
+        r=codigo**2
+        print("el codigo es par, se eleva al cubo:", r)
+    else:
+        r=codigo**3
+        print("el codigo es impar, se eleva al cuadrado", r)
+codigo_estudiante()
+
+def fechadenacimiento_codigo():
+def vocales():
+def posicion_abecedario():
+# pienso que se tendria que poner una funcion que solo tome el numero de cierta cantidad de cifras y a paartir de ello, ponerlo en una variable que pase por las demas funciones, luego con el mes que se tenga, decir si las letras coinciden con las vocales "aeiou" imprimir cuales si, y las que sobran en un else, serian las consonantes. para las letras en pocisiones del abecedario pondria a cada letra como una variable y le asignaria el valor de su posicion y luego compararia esto con la palabra dada y asi daria sus pocisiones el print.
+
+
